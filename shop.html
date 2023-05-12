@@ -54,7 +54,7 @@
 
 <section id="product1" class="section-p1">
     <div class="pro-container">
-        <div class="pro" onclick = "window.location.href='sprodect.html';">
+        <div class="pro" onclick = handleButton()>
             <img src="img/prodect/f1.jpg" alt="">
             <div class="des">
                 <span>adidas</span>
@@ -70,7 +70,7 @@
             </div>
             <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro" onclick = "window.location.href='sprodect.html';">
+        <div class="pro" onclick = handleButton()>
             <img src="img/prodect/f2.jpg" alt="">
             <div class="des">
                 <span>adidas</span>
@@ -86,7 +86,7 @@
             </div>
             <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro" onclick = "window.location.href='sprodect.html';">
+        <div class="pro" onclick = handleButton()>
             <img src="img/prodect/f3.jpg" alt="">
             <div class="des">
                 <span>adidas</span>
@@ -102,7 +102,7 @@
             </div>
             <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
         </div>
-        <div class="pro" onclick = "window.location.href='sprodect.html';">
+        <div class="pro" onclick = handleButton()>
             <img src="img/prodect/f4.jpg" alt="">
             <div class="des">
                 <span>adidas</span>
@@ -398,7 +398,11 @@
     </div>
 </footer>
 <!-- futtor end -->
-
+<script>
+    function handleButton(){
+        window.location.href='sprodect.html';
+    }
+</script>
 <script src="index.js"></script>
 </body>
 </html>
