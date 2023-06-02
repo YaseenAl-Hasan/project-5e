@@ -82,6 +82,9 @@ body{
 
 /* header start  */
 
+
+
+
 #header{
    display: flex;
    justify-content: space-between;
@@ -93,6 +96,11 @@ body{
    position: sticky;
    top: 0;
    left: 0;
+}
+.logo{
+    color: #088178;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 
